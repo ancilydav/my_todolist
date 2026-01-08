@@ -1,0 +1,33 @@
+.container{
+    background-color: aquamarine;
+}
+
+ul{
+    list-style: none;
+}
+
+.list-item{
+    border: 2px solid rgb(11, 66, 231);
+    border-radius: 4px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: lightblue;
+
+}
+
+ .completed{
+    text-decoration: line-through;
+     color: rgb(195, 37, 6);
+    }
+    
+ .completebutton,.editbutton{
+        margin-left: 5px;
+        cursor:pointer;
+        padding:5px
+    }
